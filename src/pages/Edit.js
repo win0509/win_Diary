@@ -45,8 +45,8 @@ const Edit = () => {
     <div>
       <Header 
         title={"일기 수정하기"}
-        leftChild={<Button text={"< 뒤로 가기"} onClick={goBack}/>}
-        rightChild={<Button type={"negative"} text={"삭제하기"} onClick={onClickDelete}/>}
+        leftChild={<Button text={"<"} onClick={goBack}/>}
+        rightChild={<Button type={"negative"} text={"삭제"} onClick={onClickDelete}/>}
       />
       <Editor initDate={data} onSubmit={onSubmit}/>
     </div>

@@ -24,16 +24,14 @@ const Diary = () => {
     return <div>일기를 불러오고 있습니다...</div>;  
   }else{
     const {date, emotionId, content} = data;
-    const title = `${getFormattedDate(new Date(Number(date)))}기록`;
+    const title = `${getFormattedDate(new Date(Number(date)))}`;
   return (
     <div>
       <Header 
         title={title}
-        leftChild={<Button text={"< 뒤로가기"} onClick={goBack}/>}
-        rightChild={<Button text={"수정하기"} onClick={goEdit}/>}
+        leftChild={<Button text={"<"} onClick={goBack}/>}
+        rightChild={<Button text={"수정"} onClick={goEdit}/>}
       />
-      <div>{id}번 일기</div>
-      <div>Diary page</div>
       <Viewer content={content} emotionId={emotionId}/>
     </div>
     );

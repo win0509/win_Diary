@@ -1,20 +1,22 @@
 .Button{
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 10px 20px 10px 20px;
     font-size: 18px;
     white-space: nowrap;
 }
 
 .Button_default{
-    background-color: #ececec;
+    background-color: #fff;
+    border: 1px solid #000;
     color: black;
 }
 
 .Button_positive{
-    background-color: #65c964;
-    color: white;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
 }
 
 .Button_negative{

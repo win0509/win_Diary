@@ -9,7 +9,7 @@
     cursor: pointer;
     min-width: 120px;
     height: 80px;
-    border-radius: 5px;
+    border-radius: 5%;
     display: flex;
     justify-content: center;
 }
@@ -40,7 +40,7 @@
 }
 .DiaryItem .info_section .date_wrapper{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 5px;
 }
 .DiaryItem .info_section .content_wrapper{

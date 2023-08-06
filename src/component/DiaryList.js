@@ -47,7 +47,7 @@ const DiaryList = ({data}) => {
                 </select>
             </div>
             <div className='right_col'>
-                <Button type={"positive"} text={"새 일기 쓰기"} onClick={onClickNew}/>
+                <Button type={"positive"} text={"New Diary"} onClick={onClickNew}/>
             </div>
         </div>
         <div className='list_wrapper'>

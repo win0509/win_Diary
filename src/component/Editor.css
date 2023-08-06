@@ -3,16 +3,16 @@
 }
 
 .Editor h4{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .Editor input,textarea{
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #ececec;
     padding: 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .Editor input{
