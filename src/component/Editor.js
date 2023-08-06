@@ -45,6 +45,10 @@ const Editor = ({initDate, onSubmit}) => {
         });
     };
 
+    // const handleSubmit = () => {
+    //     onSubmit(state);
+    // }
+
     useEffect(() => {
         if(initDate){
             setState({
